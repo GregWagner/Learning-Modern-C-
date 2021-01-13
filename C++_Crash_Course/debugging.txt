@@ -1,0 +1,19 @@
+Compile with the -g flag
+
+Use gdb or lldb
+
+break main.cpp:5
+or
+break main
+
+run
+
+step          // will step into a function
+
+finish        // back out of a function call
+
+next          // do not step into function
+
+info locals   // insoect current value of variables
+
+continue
