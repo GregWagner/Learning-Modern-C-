@@ -1,16 +1,17 @@
 /*
+ * A step function that returns -1 for negative values, 0 
+ * for zero, and 1 for positive values.
  * Listing 1-8 page 20
  */
 #include <iostream>
 
-
 int step_function(int x)
 {
   int result {};
-  if (x > 0) {
-    result = 1;
-  } else if (x < 0) {
+  if (x < 0) {
     result = -1;
+  } else if (x > 0) {
+    result = 1;
   }
   return result;
 }
