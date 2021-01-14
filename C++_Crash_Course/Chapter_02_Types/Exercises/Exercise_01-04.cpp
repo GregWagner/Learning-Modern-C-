@@ -1,6 +1,6 @@
 /*
  * Exercise 2-1 Page 64
- * Creaet an enum class Operation that has values Add, Stubtract, 
+ * Creete an enum class Operation that has values Add, Stubtract, 
  * Multiply, and Divide.
  *
  * Exersie 2-2
@@ -21,7 +21,7 @@ enum class Operation {
 
 class Calculator {
   public:
-    Calculator(Operation op) :op(op) {}
+    explicit Calculator(Operation op) :op(op) {}
 
     int calculate(int a, int b) {
       switch(op) {
@@ -44,7 +44,6 @@ class Calculator {
 
 int main()
 {
-
   Calculator calc{Operation::Subtract};
   printf("%d - %d = %d\n", 40, 12, calc.calculate(40, 12));
 }

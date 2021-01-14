@@ -1,13 +1,18 @@
 /*
- * An update ClockOfTheLongNow that includes a default constructor
- * Listing 2-22 Page 58
+ * An update ClockOfTheLongNow that adds an additional constructor
+ * Listing 2-23 Page 58
  */
 #include <iostream>
 
 class ClockOfTheLongNow {
     public:
         ClockOfTheLongNow() : year {2019} {
+        }
 
+        ClockOfTheLongNow(int new_year) {
+            if (!set_year(new_year)) {
+                year = 2019;
+            }
         }
 
         void add_year() {
