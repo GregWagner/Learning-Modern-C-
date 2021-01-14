@@ -1,6 +1,6 @@
 /*
- * Listing 2.5
  * Printing bool variables with a printf statement
+ * Listing 2.5 Page 39
  */
 #include <cstdio>
 

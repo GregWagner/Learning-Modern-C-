@@ -1,6 +1,6 @@
 /*
- * Listing 2-3
  * Printing several floating points
+ * Listing 2-3 Page 36
  */
 #include <cstdio>
 

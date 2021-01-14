@@ -1,17 +1,17 @@
 /*
- * Listing 2.1
  * A program that assigns several integer variables and prints them.
+ * Listing 2.1 Page 33
  */
-#include <cstdio>
+#include <iostream>
 
 int main()
 {
   unsigned const short a {0b10101010};              // binary
-  printf("%hu\n", a);
+  std::cout << a << '\n';
 
   int const b {0123};                               // octal
-  printf("%d\n", b);
+  std::cout << b << '\n';
 
-  unsigned long long const d {0xFFFFFFFFFFFFFFFF};  // hexA
-  printf("%llu\n", d);
+  unsigned long long const d {0xFFFFFFFFFFFFFFFF};  // hex
+  std::cout << d << '\n';
 }

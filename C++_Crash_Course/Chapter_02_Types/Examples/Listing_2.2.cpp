@@ -1,6 +1,6 @@
 /*
- * Listing 2-2
  * A program that uses octal and hex representations of unsigned ints.
+ * Listing 2-2 Page 33
  */
 #include <cstdio>
 

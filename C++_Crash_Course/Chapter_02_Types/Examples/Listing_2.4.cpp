@@ -1,6 +1,6 @@
 /*
- * Listing 2.4
  * Assigns several character-typed variables and prints them
+ * Listing 2.4 Page 38
  */
 #include <cstdio>
 

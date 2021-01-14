@@ -1,6 +1,6 @@
 /*
- * Listing 2-6
  * Using comparison operatorz
+ * Listing 2-6 Page 39
  */
 #include <cstdio>
 
